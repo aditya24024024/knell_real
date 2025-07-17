@@ -1,0 +1,7 @@
+{
+  "build": {
+    "root": "server",
+    "buildCommand": "cd ../client && npm install && npm run build && cd ../server && npm install",
+    "startCommand": "node index.js"
+  }
+}
